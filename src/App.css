@@ -1,0 +1,47 @@
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200vh;
+  background-color: rgb(253, 249, 249);
+}
+span{
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  font-size: 24px;
+  color: white;
+  padding: 40px;
+  background-color: red;
+  display: none;
+  transition: .5s ease;
+  cursor: pointer;
+}
+button{
+position: absolute;
+top: 500px;
+transition: 1s ease-in;
+transform: translate(-900px);
+width: 300px;
+height: 100px;
+background-color: orange;
+}
+
+.show{
+  display: block;
+}
+.showBg{
+  color: red;
+  transition: .5s ease-in-out;
+}
+.showSquare{
+  transition: 1s ease-out;
+  transform: translate(0px);
+  background-color: aquamarine;
+}
+p{
+  padding:0px 15px ;
+  font-size:36px;
+  color: black;
+ 
+}
